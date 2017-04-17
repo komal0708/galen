@@ -1,0 +1,148 @@
+{
+  "testId" : "4-login-page-on-desktop-device",
+  "name" : "Login page on Desktop device",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://testapp.galenframework.com/ 1024x800",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "inject removelogin.js",
+        "status" : "info",
+        "time" : 1491391390299,
+        "type" : "node"
+      }, {
+        "name" : "check home_page.gspec --include \"desktop\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: home_page.gspec included tags: desktop",
+          "status" : "info",
+          "time" : 1491391391076,
+          "includedTags" : [ "desktop" ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "Header",
+            "place" : {
+              "filePath" : "home_page.gspec",
+              "lineNumber" : 9
+            },
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home_page.gspec",
+                  "lineNumber" : 12
+                },
+                "name" : "height ~69 px",
+                "highlight" : [ "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home_page.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "centered horizontally inside screen",
+                "highlight" : [ "header", "screen" ]
+              } ]
+            }, {
+              "name" : "header.logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home_page.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "inside header 0 px left , 8 to 15 px top bottom",
+                "highlight" : [ "header.logo", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home_page.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "width  48 px",
+                "highlight" : [ "header.logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home_page.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "height 48 px",
+                "highlight" : [ "header.logo" ]
+              } ]
+            }, {
+              "name" : "header.caption",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home_page.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "right-of header.logo ~22px",
+                "highlight" : [ "header.caption", "header.logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home_page.gspec",
+                  "lineNumber" : 26
+                },
+                "name" : "text is \"Sample Website for Galen Framework\"",
+                "highlight" : [ "header.caption" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Menu",
+            "place" : {
+              "filePath" : "home_page.gspec",
+              "lineNumber" : 31
+            },
+            "objects" : [ {
+              "name" : "menu",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home_page.gspec",
+                  "lineNumber" : 33
+                },
+                "name" : "below header 1 px",
+                "highlight" : [ "menu", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home_page.gspec",
+                  "lineNumber" : 34
+                },
+                "name" : "aligned vertically all header",
+                "highlight" : [ "menu", "header" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "header.logo" : {
+              "area" : [ 57, 13, 48, 48 ]
+            },
+            "header" : {
+              "area" : [ 57, 0, 900, 69 ]
+            },
+            "screen" : {
+              "area" : [ 0, 0, 1014, 734 ]
+            },
+            "header.caption" : {
+              "area" : [ 127, 20, 610, 39 ]
+            },
+            "menu" : {
+              "area" : [ 57, 70, 900, 64 ]
+            }
+          },
+          "screenshot" : "layout-4-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1491391390315,
+        "type" : "node"
+      } ],
+      "time" : 1491391383476,
+      "type" : "node"
+    } ]
+  }
+}

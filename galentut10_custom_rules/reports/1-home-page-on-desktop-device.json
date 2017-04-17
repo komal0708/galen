@@ -1,0 +1,29 @@
+{
+  "testId" : "1-home-page-on-desktop-device",
+  "name" : "Home page on Desktop device",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://testapp.galenframework.com/ 1024x800",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check login_page.gspec --include \"desktop\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: login_page.gspec included tags: desktop",
+          "status" : "info",
+          "time" : 1491481606269,
+          "includedTags" : [ "desktop" ],
+          "excludedTags" : [ ],
+          "sections" : [ ],
+          "objects" : { },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1491481605691,
+        "type" : "node"
+      } ],
+      "time" : 1491481597801,
+      "type" : "node"
+    } ]
+  }
+}

@@ -1,0 +1,21 @@
+
+@import rules.gspec
+
+@objects
+  menu  #menu ul
+    item-* ls a
+
+  login-box  #login-page
+  login-caption  #login-page h2
+  username_textfield  input[name="login.username"]
+  password_textfield  input[name="login.password"]
+  login-button  .button-login
+  cancel-button  .button-cancel
+
+
+=Menu=
+ # | all menu items are aligned horizontally next to each other with 0px margin
+  @forEach [menu.item-*] as item , next as Nextitem
+    ${item}:
+      aligned horizontally all ${Nextitem}
+      left-of ${Nextitem} 0px

@@ -1,0 +1,5 @@
+Customer form test disabled/enabled
+    http://samples.galenframework.com/tutorial-color-scheme/tutorial.html   1024x768
+        check customer-form.spec
+        inject enable-form.js
+        check customer-form-enabled.spec

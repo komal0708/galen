@@ -1,0 +1,12 @@
+{
+  "testId" : "1-home-page-on-mobile",
+  "name" : "Home page on mobile",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://testapp.galenframework.com/ 500x700 check home_page.gspec --include mobile",
+      "status" : "info",
+      "time" : 1491388703341,
+      "type" : "node"
+    } ]
+  }
+}

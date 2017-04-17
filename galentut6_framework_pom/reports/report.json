@@ -1,0 +1,31 @@
+{
+  "tests" : [ {
+    "name" : "My NOtes page on Tablet device",
+    "startedAt" : 1491458861258,
+    "endedAt" : 1491458871133,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 5,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 5
+    },
+    "testId" : "1-my-notes-page-on-tablet-device",
+    "duration" : 9875,
+    "failed" : false
+  }, {
+    "name" : "My NOtes page on Desktop device",
+    "startedAt" : 1491458871134,
+    "endedAt" : 1491458879050,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 5,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 5
+    },
+    "testId" : "2-my-notes-page-on-desktop-device",
+    "duration" : 7916,
+    "failed" : false
+  } ]
+}

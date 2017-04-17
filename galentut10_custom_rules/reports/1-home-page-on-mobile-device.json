@@ -1,0 +1,25 @@
+{
+  "testId" : "1-home-page-on-mobile-device",
+  "name" : "Home page on Mobile device",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://testapp.galenframework.com/ 320x600",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check home_page.gspec --include \"mobile\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "FileNotFoundException: home_page.gspec",
+          "status" : "error",
+          "time" : 1491478900930,
+          "stacktrace" : "java.io.FileNotFoundException: home_page.gspec\n\tat com.galenframework.speclang2.pagespec.PageSpecReader.read(PageSpecReader.java:43)\n\tat com.galenframework.api.Galen.checkLayout(Galen.java:68)\n\tat com.galenframework.api.Galen.checkLayout(Galen.java:59)\n\tat com.galenframework.suite.actions.GalenPageActionCheck.execute(GalenPageActionCheck.java:53)\n\tat com.galenframework.runner.GalenPageRunner.executeAction(GalenPageRunner.java:84)\n\tat com.galenframework.runner.GalenPageRunner.run(GalenPageRunner.java:76)\n\tat com.galenframework.runner.GalenBasicTestRunner.runTest(GalenBasicTestRunner.java:76)\n\tat com.galenframework.tests.GalenBasicTest.execute(GalenBasicTest.java:55)\n\tat com.galenframework.TestRunnable.runTest(TestRunnable.java:75)\n\tat com.galenframework.TestRunnable.run(TestRunnable.java:101)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\n",
+          "type" : "node"
+        } ],
+        "time" : 1491478900926,
+        "type" : "node"
+      } ],
+      "time" : 1491478892847,
+      "type" : "node"
+    } ]
+  }
+}

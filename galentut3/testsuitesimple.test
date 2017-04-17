@@ -1,0 +1,6 @@
+Home page on mobile
+  http://testapp.galenframework.com/ 500x700 check home_page.gspec --include mobile
+
+
+Home page on desktop
+  http://testapp.galenframework.com/ 1024x768 check home_page.gspec --include desktop

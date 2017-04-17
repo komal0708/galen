@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "Customer form test disabled/enabled",
+    "startedAt" : 1491485391074,
+    "endedAt" : 1491485399117,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "1-customer-form-test-disabled-enabled",
+    "duration" : 8043,
+    "failed" : true
+  } ]
+}

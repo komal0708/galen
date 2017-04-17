@@ -1,0 +1,124 @@
+{
+  "testId" : "3-login-page-on-device",
+  "name" : "Login page on  device",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://testapp.galenframework.com/",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check home_page.gspec --include \"\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: home_page.gspec included tags: ",
+          "status" : "info",
+          "time" : 1491389981864,
+          "includedTags" : [ ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "Header",
+            "place" : {
+              "filePath" : "home_page.gspec",
+              "lineNumber" : 9
+            },
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home_page.gspec",
+                  "lineNumber" : 12
+                },
+                "name" : "height ~69 px",
+                "highlight" : [ "header" ]
+              } ]
+            }, {
+              "name" : "header.logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home_page.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "inside header 0 px left , 8 to 15 px top bottom",
+                "highlight" : [ "header.logo", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home_page.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "width  48 px",
+                "highlight" : [ "header.logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home_page.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "height 48 px",
+                "highlight" : [ "header.logo" ]
+              } ]
+            }, {
+              "name" : "header.caption",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home_page.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "right-of header.logo ~22px",
+                "highlight" : [ "header.caption", "header.logo" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Menu",
+            "place" : {
+              "filePath" : "home_page.gspec",
+              "lineNumber" : 31
+            },
+            "objects" : [ {
+              "name" : "menu",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home_page.gspec",
+                  "lineNumber" : 33
+                },
+                "name" : "below header 1 px",
+                "highlight" : [ "menu", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home_page.gspec",
+                  "lineNumber" : 34
+                },
+                "name" : "aligned vertically all header",
+                "highlight" : [ "menu", "header" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "header.logo" : {
+              "area" : [ 190, 13, 48, 48 ]
+            },
+            "header" : {
+              "area" : [ 190, 0, 900, 69 ]
+            },
+            "header.caption" : {
+              "area" : [ 260, 20, 610, 39 ]
+            },
+            "menu" : {
+              "area" : [ 190, 70, 900, 64 ]
+            }
+          },
+          "screenshot" : "layout-3-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1491389980910,
+        "type" : "node"
+      } ],
+      "time" : 1491389974213,
+      "type" : "node"
+    } ]
+  }
+}

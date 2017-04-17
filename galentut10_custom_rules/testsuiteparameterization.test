@@ -1,0 +1,15 @@
+@@set domain testapp.galenframework.com
+
+
+@@ table myDevices
+  | deviceName | tags      | size     |
+  | Desktop    | desktop   | 1024x800 |
+
+
+@@ parameterized using myDevices
+
+Home page on ${deviceName} device
+  http://${domain}/ ${size}
+    check login_page.gspec --include "${tags}"
+
+

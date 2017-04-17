@@ -1,0 +1,110 @@
+{
+  "testId" : "3-home-page-on-desktop",
+  "name" : "Home page on desktop",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: home_page.gspec included tags: ",
+      "status" : "info",
+      "time" : 1491474420362,
+      "sections" : [ {
+        "name" : "Header",
+        "place" : {
+          "filePath" : "home_page.gspec",
+          "lineNumber" : 9
+        },
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home_page.gspec",
+              "lineNumber" : 12
+            },
+            "name" : "height ~69 px",
+            "highlight" : [ "header" ]
+          } ]
+        }, {
+          "name" : "header.logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home_page.gspec",
+              "lineNumber" : 19
+            },
+            "name" : "inside header 0 px left , 8 to 15 px top bottom",
+            "highlight" : [ "header.logo", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home_page.gspec",
+              "lineNumber" : 20
+            },
+            "name" : "width  48 px",
+            "highlight" : [ "header.logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home_page.gspec",
+              "lineNumber" : 21
+            },
+            "name" : "height 48 px",
+            "highlight" : [ "header.logo" ]
+          } ]
+        }, {
+          "name" : "header.caption",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home_page.gspec",
+              "lineNumber" : 24
+            },
+            "name" : "right-of header.logo ~22px",
+            "highlight" : [ "header.caption", "header.logo" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Menu",
+        "place" : {
+          "filePath" : "home_page.gspec",
+          "lineNumber" : 31
+        },
+        "objects" : [ {
+          "name" : "menu",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home_page.gspec",
+              "lineNumber" : 33
+            },
+            "name" : "below header 1 px",
+            "highlight" : [ "menu", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "home_page.gspec",
+              "lineNumber" : 34
+            },
+            "name" : "aligned vertically all header",
+            "highlight" : [ "menu", "header" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "header.logo" : {
+          "area" : [ 57, 13, 48, 48 ]
+        },
+        "header" : {
+          "area" : [ 57, 0, 900, 69 ]
+        },
+        "header.caption" : {
+          "area" : [ 127, 20, 610, 39 ]
+        },
+        "menu" : {
+          "area" : [ 57, 70, 900, 64 ]
+        }
+      },
+      "screenshot" : "layout-3-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

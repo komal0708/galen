@@ -1,0 +1,59 @@
+{
+  "tests" : [ {
+    "name" : "Home page on Tablet device",
+    "startedAt" : 1491392850053,
+    "endedAt" : 1491392865371,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 8,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 8
+    },
+    "testId" : "1-home-page-on-tablet-device",
+    "failed" : false,
+    "duration" : 15318
+  }, {
+    "name" : "Home page on Desktop device",
+    "startedAt" : 1491392865372,
+    "endedAt" : 1491392879787,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 10,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 10
+    },
+    "testId" : "2-home-page-on-desktop-device",
+    "failed" : false,
+    "duration" : 14415
+  }, {
+    "name" : "Login page on Tablet device",
+    "startedAt" : 1491392879787,
+    "endedAt" : 1491392888510,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 8,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 8
+    },
+    "testId" : "3-login-page-on-tablet-device",
+    "failed" : false,
+    "duration" : 8723
+  }, {
+    "name" : "Login page on Desktop device",
+    "startedAt" : 1491392888510,
+    "endedAt" : 1491392897538,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 10,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 10
+    },
+    "testId" : "4-login-page-on-desktop-device",
+    "failed" : false,
+    "duration" : 9028
+  } ]
+}

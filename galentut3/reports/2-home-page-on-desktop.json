@@ -1,0 +1,12 @@
+{
+  "testId" : "2-home-page-on-desktop",
+  "name" : "Home page on desktop",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://testapp.galenframework.com/ 1024x768 check home_page.gspec --include desktop",
+      "status" : "info",
+      "time" : 1491388711840,
+      "type" : "node"
+    } ]
+  }
+}

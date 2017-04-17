@@ -1,0 +1,93 @@
+{
+  "testId" : "1-my-notes-page-on-tablet-device",
+  "name" : "My NOtes page on Tablet device",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://testapp.galenframework.com/ 640x480",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "run loginmynotes.js",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Click loginButton on WelcomePage",
+          "status" : "info",
+          "nodes" : [ {
+            "name" : "css: .button-login",
+            "type" : "text"
+          } ],
+          "time" : 1491458869811,
+          "type" : "node"
+        }, {
+          "name" : "Type \"testuser@example.com\" to username on LoginPage",
+          "status" : "info",
+          "nodes" : [ {
+            "name" : "css: input[name='login.username']",
+            "type" : "text"
+          } ],
+          "time" : 1491458870133,
+          "type" : "node"
+        }, {
+          "name" : "Type \"test123\" to password on LoginPage",
+          "status" : "info",
+          "nodes" : [ {
+            "name" : "css: input[name='login.password']",
+            "type" : "text"
+          } ],
+          "time" : 1491458870224,
+          "type" : "node"
+        }, {
+          "name" : "Click button on LoginPage",
+          "status" : "info",
+          "nodes" : [ {
+            "name" : "css: .button-login",
+            "type" : "text"
+          } ],
+          "time" : 1491458870266,
+          "type" : "node"
+        } ],
+        "time" : 1491458869669,
+        "type" : "node"
+      }, {
+        "name" : "check mynotes.gspec --include \"tablet\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: mynotes.gspec included tags: tablet",
+          "status" : "info",
+          "time" : 1491458870899,
+          "includedTags" : [ "tablet" ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "Main",
+            "place" : {
+              "filePath" : "mynotes.gspec",
+              "lineNumber" : 5
+            },
+            "objects" : [ {
+              "name" : "main-caption",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mynotes.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "text is \"My Notes\"",
+                "highlight" : [ "main-caption" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "main-caption" : {
+              "area" : [ 20, 174, 590, 33 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1491458870306,
+        "type" : "node"
+      } ],
+      "time" : 1491458861265,
+      "type" : "node"
+    } ]
+  }
+}

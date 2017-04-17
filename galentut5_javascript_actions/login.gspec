@@ -1,0 +1,13 @@
+@objects
+  login-panel  #login-page
+
+
+= LoginPage =
+  @on desktop
+    login-panel:
+      width: 400px
+      centered inside screen
+
+  @on mobile
+    login-panel:
+      inside screen 20 to 30 px left right

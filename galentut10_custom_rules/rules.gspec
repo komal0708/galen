@@ -1,0 +1,6 @@
+@rule all menu items are aligned horizontally next to each other with 0px margin
+
+  @forEach [menu.item-*] as item , next as Nextitem
+    ${item}:
+      aligned horizontally all ${Nextitem}
+      left-of ${Nextitem} 0px
